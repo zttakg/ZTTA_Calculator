@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> component should render all props 1`] = `
+<svg role="img" class="icon icon_test">
+  <title>Test icon</title>
+  <use xlink:href="path/to/sprite.svg#test"></use>
+</svg>
+`;
+
+exports[`<Icon /> component should render correct without props 1`] = `undefined`;

@@ -1,0 +1,145 @@
+.hole-position
+  position relative
+  padding 8px
+  width 102px
+  height 102px
+  border-radius 8px
+  background-color #f7fafd
+  background-position 50% 50%
+  background-repeat no-repeat
+
+  &__item-shape
+    position absolute
+    display block
+    width 18px
+    height 18px
+
+  &__hole-switch
+    position absolute
+    top 0
+    left 0
+    padding 0
+    width 100%
+    height 100%
+
+  &_shape-type_rectangle
+    & ^[0]__item-shape_top-left
+      top 0
+      left 0
+
+    & ^[0]__item-shape_top-right
+      top 0
+      right 0
+
+    & ^[0]__item-shape_bottom-left
+      bottom 0
+      left 0
+
+    & ^[0]__item-shape_bottom-right
+      right 0
+      bottom 0
+
+  &_shape-type_rectangle
+    &^[0]_hole-type_rectangle
+      &^[0]_hole-position_center
+        &^[0]_shape-position_top-left
+          background-image url("../assets/hole-position/rectangle/rectangle/center/top-left.svg")
+
+        &^[0]_shape-position_top-right
+          background-image url("../assets/hole-position/rectangle/rectangle/center/top-right.svg")
+
+        &^[0]_shape-position_bottom-left
+          background-image url("../assets/hole-position/rectangle/rectangle/center/bottom-left.svg")
+
+        &^[0]_shape-position_bottom-right
+          background-image url("../assets/hole-position/rectangle/rectangle/center/bottom-right.svg")
+
+      &^[0]_hole-position_side
+        &^[0]_shape-position_top-left
+          background-image url("../assets/hole-position/rectangle/rectangle/side/top-left.svg")
+
+        &^[0]_shape-position_top-right
+          background-image url("../assets/hole-position/rectangle/rectangle/side/top-right.svg")
+
+        &^[0]_shape-position_bottom-left
+          background-image url("../assets/hole-position/rectangle/rectangle/side/bottom-left.svg")
+
+        &^[0]_shape-position_bottom-right
+          background-image url("../assets/hole-position/rectangle/rectangle/side/bottom-right.svg")
+
+    &^[0]_hole-type_circle
+      &^[0]_hole-position_center
+        &^[0]_shape-position_top-left
+          background-image url("../assets/hole-position/rectangle/circle/center/top-left.svg")
+
+        &^[0]_shape-position_top-right
+          background-image url("../assets/hole-position/rectangle/circle/center/top-right.svg")
+
+        &^[0]_shape-position_bottom-left
+          background-image url("../assets/hole-position/rectangle/circle/center/bottom-left.svg")
+
+        &^[0]_shape-position_bottom-right
+          background-image url("../assets/hole-position/rectangle/circle/center/bottom-right.svg")
+
+      &^[0]_hole-position_side
+        &^[0]_shape-position_top-left
+          background-image url("../assets/hole-position/rectangle/circle/side/top-left.svg")
+
+        &^[0]_shape-position_top-right
+          background-image url("../assets/hole-position/rectangle/circle/side/top-right.svg")
+
+        &^[0]_shape-position_bottom-left
+          background-image url("../assets/hole-position/rectangle/circle/side/bottom-left.svg")
+
+        &^[0]_shape-position_bottom-right
+          background-image url("../assets/hole-position/rectangle/circle/side/bottom-right.svg")
+
+  &_shape-type_triangle
+    &^[0]_hole-position_center
+      background-image url("../assets/hole-position/triangle/circle_center.svg")
+
+    &^[0]_hole-position_side
+      background-image url("../assets/hole-position/triangle/circle_side.svg")
+
+  &_shape-type_circle
+    &^[0]_shape-position_center
+      &^[0]_hole-position_center
+        background-image url("../assets/hole-position/circle/center_center.svg")
+
+      &^[0]_hole-position_side
+        background-image url("../assets/hole-position/circle/center_side.svg")
+
+    &^[0]_shape-position_side
+      &^[0]_hole-position_center
+        background-image url("../assets/hole-position/circle/side_center.svg")
+
+      &^[0]_hole-position_side
+        background-image url("../assets/hole-position/circle/side_side.svg")
+
+  &_shape-type_rectangle
+    & ^[0]__item-shape
+      &_top-left
+        top 0
+        left 0
+
+      &_top_right
+        top 0
+        right 0
+
+      &_bottom_left
+        bottom 0
+        left 0
+
+      &_bottom_right
+        right 0
+        bottom 0
+
+  &_shape-type_circle
+    & ^[0]__item-shape
+      &_center
+        bottom 0
+        left 0
+
+      &_side
+        top 30px
+        right 30px

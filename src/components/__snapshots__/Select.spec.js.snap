@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> component should render all props 1`] = `
+<span class="select select_block select_style_material select_style_rounded"><select multiple="multiple" id="test-name" name="test-name" disabled="disabled" class="form-control form-control_type_select select__control"><option value="" disabled="disabled" class="select__placeholder">
+      Please select ...
+    </option> <option label="Item 1" value="1">
+      Item 1
+    </option><option label="Item 2" value="2">
+      Item 2
+    </option><option label="Item 3" value="3">
+      Item 3
+    </option> <!----></select></span>
+`;
+
+exports[`<Select /> component should render correct without props 1`] = `<span class="select select_inline select_style_default"><select class="form-control form-control_type_select select__control"><!---->  </select></span>`;
+
+exports[`<Select /> component should render with slot 1`] = `
+<span class="select select_block select_style_material select_style_rounded"><select multiple="multiple" id="test-name" name="test-name" disabled="disabled" class="form-control form-control_type_select select__control"><option value="" disabled="disabled" class="select__placeholder">
+      Please select ...
+    </option>  <option value="1">Item 1</option><option value="2">Item 2</option><option value="3">Item 3</option></select></span>
+`;

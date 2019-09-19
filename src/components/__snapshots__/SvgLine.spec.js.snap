@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SvgLine /> component should render all props 1`] = `<line x1="40" y1="400" x2="20" y2="200" stroke-linecap="butt" stroke-width="5" stroke="#f06"></line>`;
+
+exports[`<SvgLine /> component should render correct without props 1`] = `<line x1="20" y1="120" x2="120" y2="20" stroke-linecap="round" stroke-width="1" stroke="#000"></line>`;

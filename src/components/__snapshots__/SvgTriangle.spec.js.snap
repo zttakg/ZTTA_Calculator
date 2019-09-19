@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SvgTriangle /> component should render all props 1`] = `<polygon points="0,0 0,200 400,200 0,0" fill="#000"></polygon>`;
+
+exports[`<SvgTriangle /> component should render correct without props 1`] = `<polygon points="0,0 0,300 300,300 0,0"></polygon>`;

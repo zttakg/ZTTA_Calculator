@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SvgCircle /> component should fill circle using \`fillColor\` prop 1`] = `<circle cx="150" cy="150" r="150" fill="#000"></circle>`;
+
+exports[`<SvgCircle /> component should move using \`cx\` and \`cy\` 1`] = `<circle cx="60" cy="70" r="50"></circle>`;
+
+exports[`<SvgCircle /> component should move using \`cx\`, \`cy\` and \`strokeWidth\` props 1`] = `<circle cx="65" cy="75" r="50" stroke-width="5" stroke="#000"></circle>`;
+
+exports[`<SvgCircle /> component should render circle using \`diameter\` prop 1`] = `<circle cx="50" cy="50" r="50"></circle>`;
+
+exports[`<SvgCircle /> component should render correct without props 1`] = `<circle cx="150" cy="150" r="150"></circle>`;

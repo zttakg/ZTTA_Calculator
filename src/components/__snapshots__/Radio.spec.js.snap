@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> component should render all props 1`] = `
+<label for="test-id" class="radio radio_checked radio_style_test-theme">
+  <input type="radio" id="test-id" name="test-name" required="required" disabled="disabled" class="form-control form-control_type_radio radio__control test-class" value=""> <span class="radio__box"></span> <span class="radio__label visuallyhidden">Test label </span></label>
+`;
+
+exports[`<Radio /> component should render correct without props 1`] = `
+<label for="radio-id-mockedUID" class="radio radio_style_default">
+  <input type="radio" id="radio-id-mockedUID" class="form-control form-control_type_radio radio__control" value=""> <span class="radio__box"></span>
+  <!---->
+</label>
+`;

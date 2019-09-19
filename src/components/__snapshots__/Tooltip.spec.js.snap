@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> component should render all props 1`] = `
+<div class="tooltip tooltip_theme_material tooltip_theme_dark tooltip_theme_shadow" name="tooltip">
+  <div class="tooltip__arrow"></div> Tooltip content</div>
+`;
+
+exports[`<Tooltip /> component should render correct without props 1`] = `undefined`;

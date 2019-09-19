@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> component should render all props 1`] = `
+<span class="input input_type_number input_icon input_block input_style_material input_style_rounded"><span class="input__icon"><!----></span>
+<input id="test-name" name="test-name" type="number" min="10" max="1000" placeholder="test placeholder" class="form-control form-control_type_input input__control">
+</span>
+`;
+
+exports[`<Input /> component should render correct without props 1`] = `<span class="input input_type_text input_style_default"><!----> <input type="text" class="form-control form-control_type_input input__control"></span>`;

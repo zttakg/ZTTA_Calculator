@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SvgRectangle /> component should render \`rx\` and \`ry\` props manually 1`] = `<rect rx="20" ry="10" width="300" height="300"></rect>`;
+
+exports[`<SvgRectangle /> component should render all props 1`] = `<rect x="5" y="5" rx="10" ry="10" width="200" height="200" fill="#000" stroke-width="5" stroke="#000"></rect>`;
+
+exports[`<SvgRectangle /> component should render correct without props 1`] = `<rect width="300" height="300"></rect>`;

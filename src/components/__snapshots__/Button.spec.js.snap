@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> component should render all props as button 1`] = `<button type="submit" class="button button_color_blue button_size_xxxl button_block button_disabled button_icon button_style_solid button_style_rounded"></button>`;
+
+exports[`<Button /> component should render all props as link 1`] = `<a href="#" class="button button_color_blue button_size_xxxl button_block button_disabled button_icon button_style_solid button_style_rounded"></a>`;
+
+exports[`<Button /> component should render correct without props 1`] = `<button type="button" class="button button_size_medium"></button>`;

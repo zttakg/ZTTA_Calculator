@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup /> component should render correct without props 1`] = `
+<div class="button-group">
+  <button type="button" class="button button-group__item"></button>
+  <button type="button" class="button button-group__item"></button>
+</div>
+`;

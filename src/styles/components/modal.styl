@@ -1,0 +1,62 @@
+.modal-open
+  overflow hidden
+
+.modal-open .modal-wrapper
+  display block
+
+.modal-wrapper
+  position absolute
+  top 0
+  left 0
+  display none
+
+/* Backdrop
+---------------------------------------- */
+.modal-backdrop
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  left 0
+  z-index 1000
+  background-color rgba(0, 0, 0, 0.5)
+  opacity 1
+  transform translateZ(0)
+  will-change opacity
+
+.modal-backdrop-enter-active
+.modal-backdrop-leave-active
+  transition opacity 250ms ease
+
+.modal-backdrop-enter
+.modal-backdrop-leave-active
+  opacity 0
+
+/* Content
+---------------------------------------- */
+.modal-content-wrapper
+  position fixed
+  top 0
+  right 0
+  left 0
+  z-index 1001
+  display flex
+  overflow auto
+  height 100%
+
+.modal-content
+  align-self center
+  margin 30px auto
+  opacity 1
+  transform scale(1)
+  will-change opacity, transform
+
+.modal-content-enter-active
+.modal-content-leave-active
+  transition 250ms ease
+  transition-property opacity, transform
+
+.modal-content-enter
+.modal-content-leave-active
+  opacity 0
+  transform scale(1.2)

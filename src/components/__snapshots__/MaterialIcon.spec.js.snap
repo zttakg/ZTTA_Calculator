@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialIcon /> component should render all props 1`] = `
+<span class="material-icon" style="font-size: 48px;">
+  test
+</span>
+`;
+
+exports[`<MaterialIcon /> component should render correct without props 1`] = `undefined`;

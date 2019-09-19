@@ -1,0 +1,810 @@
+{
+  "info": {
+    "cutTypes": [
+      {
+        "name": "Газовая резка",
+        "cutMaterialIds": [
+          "3",
+          "7"
+        ]
+      },
+      {
+        "name": "Лазерная резка",
+        "cutMaterialIds": [
+          "1",
+          "4",
+          "9"
+        ]
+      },
+      {
+        "name": "Плазменная резка",
+        "cutMaterialIds": [
+          "2",
+          "5",
+          "6",
+          "8",
+          "10",
+          "11"
+        ]
+      }
+    ],
+    "cutMaterials": {
+      "1": {
+        "id": "1",
+        "name": "Сталь3 1 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "2": {
+        "id": "2",
+        "name": "Сталь3 1 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "3": {
+        "id": "3",
+        "name": "Сталь3 1 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "4": {
+        "id": "4",
+        "name": "Сталь3 5 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "5": {
+        "id": "5",
+        "name": "Сталь3 5 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "6": {
+        "id": "6",
+        "name": "Сталь3 10 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "7": {
+        "id": "7",
+        "name": "Сталь3 10 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "8": {
+        "id": "8",
+        "name": "Сталь45 50 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "9": {
+        "id": "9",
+        "name": "НС глянец 1 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "10": {
+        "id": "10",
+        "name": "НС глянец 1 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      },
+      "11": {
+        "id": "11",
+        "name": "НС матовая 2 мм",
+        "width": {
+          "max": 6000,
+          "min": 1
+        },
+        "height": {
+          "max": 6000,
+          "min": 1
+        },
+        "holeSize": {
+          "min": 0.9
+        }
+      }
+    }
+  },
+  "shape": [
+    {
+      "shape": {
+        "type": "circle",
+        "title": "Circle (5 holes)",
+        "material": "9",
+        "cutType": "Лазерная резка",
+        "quantity": 1,
+        "circle": {
+          "diameter": "300"
+        },
+        "rectangle": {
+          "width": "300",
+          "height": "300",
+          "radius": "0"
+        },
+        "triangle": {
+          "side1": "300",
+          "side2": "300"
+        },
+        "holes": {
+          "_hyl6B2laeW1mp1LlNrSSA": {
+            "id": "_hyl6B2laeW1mp1LlNrSSA",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_Nq2VVxbht_fghReoKCta8": {
+            "id": "_Nq2VVxbht_fghReoKCta8",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "90"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_dSjTB8N4vKpHOuOgFc1M5": {
+            "id": "_dSjTB8N4vKpHOuOgFc1M5",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "180"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_BlEj3qBfZ03CNT_LvF4mE": {
+            "id": "_BlEj3qBfZ03CNT_LvF4mE",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "270"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          }
+        }
+      },
+      "id": 1
+    },
+    {
+      "shape": {
+        "type": "triangle",
+        "title": "Triangle (3 holes)",
+        "material": "4",
+        "cutType": "Лазерная резка",
+        "quantity": 1,
+        "circle": {
+          "diameter": "300"
+        },
+        "rectangle": {
+          "width": "300",
+          "height": "300",
+          "radius": "0"
+        },
+        "triangle": {
+          "side1": "300",
+          "side2": "300"
+        },
+        "holes": {
+          "_fPZvzEGOxe18WU6dyZfLQ": {
+            "id": "_fPZvzEGOxe18WU6dyZfLQ",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_aA1aIKzf_3AuprmJ8pviL": {
+            "id": "_aA1aIKzf_3AuprmJ8pviL",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "150",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_JnhjcXkoFxieKDWCdqQ16": {
+            "id": "_JnhjcXkoFxieKDWCdqQ16",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "150",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          }
+        }
+      },
+      "id": 2
+    },
+    {
+      "shape": {
+        "type": "rectangle",
+        "title": "Rectangle (4 square holes)",
+        "material": "8",
+        "cutType": "Лазерная резка",
+        "quantity": 1,
+        "circle": {
+          "diameter": "300"
+        },
+        "rectangle": {
+          "width": "300",
+          "height": "300",
+          "radius": "25"
+        },
+        "triangle": {
+          "side1": "300",
+          "side2": "300"
+        },
+        "holes": {
+          "_rUV5JXrpFYToQLh688yin": {
+            "id": "_rUV5JXrpFYToQLh688yin",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_qF1W_5sPHHZaPfw6IuwXS": {
+            "id": "_qF1W_5sPHHZaPfw6IuwXS",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-right",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_IZhGAAlwuhCtI07amzuX8": {
+            "id": "_IZhGAAlwuhCtI07amzuX8",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "bottom-right",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_OsIKGjFG0BYpP8RU6h2rK": {
+            "id": "_OsIKGjFG0BYpP8RU6h2rK",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "bottom-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          }
+        }
+      },
+      "id": 3
+    }
+  ],
+  "cart": [],
+  "order": [
+    {
+      "shape": {
+        "type": "circle",
+        "title": "Circle (5 holes)",
+        "material": "9",
+        "cutType": "Лазерная резка",
+        "quantity": 1,
+        "circle": {
+          "diameter": "300"
+        },
+        "rectangle": {
+          "width": "300",
+          "height": "300",
+          "radius": "0"
+        },
+        "triangle": {
+          "side1": "300",
+          "side2": "300"
+        },
+        "holes": {
+          "_hyl6B2laeW1mp1LlNrSSA": {
+            "id": "_hyl6B2laeW1mp1LlNrSSA",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_Nq2VVxbht_fghReoKCta8": {
+            "id": "_Nq2VVxbht_fghReoKCta8",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "90"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_dSjTB8N4vKpHOuOgFc1M5": {
+            "id": "_dSjTB8N4vKpHOuOgFc1M5",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "180"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_BlEj3qBfZ03CNT_LvF4mE": {
+            "id": "_BlEj3qBfZ03CNT_LvF4mE",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "side",
+                "hole": "side"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "25",
+              "angle": "270"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          }
+        }
+      },
+      "id": 1
+    },
+    {
+      "shape": {
+        "type": "triangle",
+        "title": "Triangle (3 holes)",
+        "material": "4",
+        "cutType": "Лазерная резка",
+        "quantity": 1,
+        "circle": {
+          "diameter": "300"
+        },
+        "rectangle": {
+          "width": "300",
+          "height": "300",
+          "radius": "0"
+        },
+        "triangle": {
+          "side1": "300",
+          "side2": "300"
+        },
+        "holes": {
+          "_fPZvzEGOxe18WU6dyZfLQ": {
+            "id": "_fPZvzEGOxe18WU6dyZfLQ",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_aA1aIKzf_3AuprmJ8pviL": {
+            "id": "_aA1aIKzf_3AuprmJ8pviL",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "150",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_JnhjcXkoFxieKDWCdqQ16": {
+            "id": "_JnhjcXkoFxieKDWCdqQ16",
+            "type": "circle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "150",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          }
+        }
+      },
+      "id": 2
+    },
+    {
+      "shape": {
+        "type": "rectangle",
+        "title": "Rectangle (4 square holes)",
+        "material": "8",
+        "cutType": "Газовая резка",
+        "quantity": 1,
+        "circle": {
+          "diameter": "300"
+        },
+        "rectangle": {
+          "width": "300",
+          "height": "300",
+          "radius": "25"
+        },
+        "triangle": {
+          "side1": "300",
+          "side2": "300"
+        },
+        "holes": {
+          "_rUV5JXrpFYToQLh688yin": {
+            "id": "_rUV5JXrpFYToQLh688yin",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_qF1W_5sPHHZaPfw6IuwXS": {
+            "id": "_qF1W_5sPHHZaPfw6IuwXS",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "top-right",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_IZhGAAlwuhCtI07amzuX8": {
+            "id": "_IZhGAAlwuhCtI07amzuX8",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "bottom-right",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          },
+          "_OsIKGjFG0BYpP8RU6h2rK": {
+            "id": "_OsIKGjFG0BYpP8RU6h2rK",
+            "type": "rectangle",
+            "position": {
+              "zeroPoint": {
+                "rectangle": "bottom-left",
+                "triangle": "bottom-left",
+                "circle": "center",
+                "hole": "center"
+              },
+              "x": "50",
+              "y": "50",
+              "l": "0",
+              "angle": "0"
+            },
+            "width": "40",
+            "height": "40",
+            "radius": "0",
+            "diameter": "40",
+            "isHovered": false
+          }
+        }
+      },
+      "id": 3
+    }
+  ]
+}

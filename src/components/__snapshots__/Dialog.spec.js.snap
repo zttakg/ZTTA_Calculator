@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dialog /> component should render all props 1`] = `
+<div id="test" role="dialog" aria-modal="true" aria-labelledby="test-dialog__title" class="dialog dialog_theme_full-screen dialog_theme_bordered dialog_theme_test">
+  <header class="dialog__header">
+    <h2 id="test-dialog__title" class="dialog__title">Test dialog title</h2>
+    <button class="dialog__close">
+      <!----><span class="visuallyhidden">Close this dialog window</span></button>
+  </header>
+  <main class="dialog__content">
+    <p>Test conetent</p>
+  </main>
+  <footer class="dialog__footer">
+    <p>Test footer</p>
+  </footer>
+</div>
+`;
+
+exports[`<Dialog /> component should render correct without props 1`] = `
+<div id="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-dialog__title" class="dialog">
+  <!---->
+  <main class="dialog__content"></main>
+  <footer class="dialog__footer"></footer>
+</div>
+`;

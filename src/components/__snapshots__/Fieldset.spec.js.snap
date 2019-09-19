@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Fieldset /> component should render all props 1`] = `
+<fieldset class="fieldset">
+  <legend class="fieldset__legend">Test</legend>
+  <div class="fieldset__item">
+    <input type="radio" name="test" id="r1">
+  </div>
+  <div class="fieldset__item">
+    <input type="radio" name="test" id="r2">
+  </div>
+</fieldset>
+`;
+
+exports[`<Fieldset /> component should render correct without props 1`] = `
+<fieldset class="fieldset">
+  <div class="fieldset__item">
+    <input type="radio" name="test" id="r1">
+  </div>
+  <div class="fieldset__item">
+    <input type="radio" name="test" id="r2">
+  </div>
+</fieldset>
+`;
+
+exports[`<Fieldset /> component should render with one child in default slot 1`] = `
+<fieldset class="fieldset">
+  <legend class="fieldset__legend">Test</legend>
+  <div class="fieldset__item">
+    <input type="radio" name="test" id="r1">
+  </div>
+</fieldset>
+`;
+
+exports[`<Fieldset /> component should render without child in default slot 1`] = `
+<fieldset class="fieldset">
+  <legend class="fieldset__legend">Test</legend>
+</fieldset>
+`;
